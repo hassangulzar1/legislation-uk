@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.linkStyle {
+  text-decoration: none;
+  margin: 0 10px;
+  color: gray;
+  text-align: center;
+}
+.linkStyle:hover {
+  color: black;
+}
+
+.active {
+  color: black;
+}
+
+/* home page Input field  */
+input[type="email"] {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  width: 40%;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+input[type="email"]:focus {
+  border-color: #6b7280;
+}
+
+/* Features section on home page  */
+ul.custom-list {
+  list-style: none;
+  padding: 0;
+}
+ul.custom-list li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+  line-height: 28px;
+  color: #6b7280;
+  font-weight: 400;
+}
+ul.custom-list li::before {
+  content: "\2714"; /* Unicode character for tick mark */
+  position: absolute;
+  left: 0;
+  color: #08c6aa;
+  font-size: 20px;
+}
+
+.btnPrimary {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #08c6aa;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.btnPrimary:hover {
+  background-color: #069e87;
+}
+
+.secondaryBtn {
+  padding: 10px 20px;
+  border: 1px solid #08c6aa;
+  border-radius: 8px;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: white;
+}
+
+.secondaryBtn:hover {
+  background-color: #08c6aa;
+  color: #fff;
+}

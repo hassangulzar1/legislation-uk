@@ -1,0 +1,9 @@
+.homeHeading {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.wishlistContainer {
+  display: flex;
+  gap: 10px;
+}

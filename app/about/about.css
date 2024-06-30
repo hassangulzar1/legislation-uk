@@ -1,0 +1,41 @@
+.bold {
+  /* font-weight: ; */
+  font-weight: bolder;
+  font-size: 50px;
+}
+.letter {
+  font-weight: bolder;
+  font-size: 28px;
+}
+.paragraph {
+  color: rgb(109, 83, 83);
+  font-size: 18px;
+}
+.img1 {
+  height: 65px;
+  width: 65px;
+}
+.img {
+  height: 140px;
+  width: 140px;
+}
+
+.custom-icon {
+  font-size: 1.5rem; /* Adjust the size as needed */
+}
+
+.card-body a {
+  margin: 0 10px; /* Add some margin if needed */
+}
+.custom-icon {
+  width: 35px;
+  transition: transform 0.3s ease;
+}
+
+.card-body a {
+  margin: 0 10px; /* Add some margin if needed */
+}
+
+.card-body a:hover .custom-icon {
+  transform: scale(1.2); /* Slightly enlarge the icon on hover */
+}
